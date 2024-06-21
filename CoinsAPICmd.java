@@ -2,7 +2,7 @@ package [DeinPackage];
 /*
 Copyright:
 2023
-Felix H
+Felix Hausmann
   */
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
