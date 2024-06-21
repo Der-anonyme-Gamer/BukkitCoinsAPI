@@ -35,6 +35,10 @@ To enable and configure the `/pay` and `/money` commands, follow these steps:
 4. Add following lines to the file:
    ```YAML
     commands:
-       pay:
-       money:
+  pay:
+    description: Pay feature 
+    usage: /pay
+  money:
+    description: Check your coin balance
+    usage: /money
    
