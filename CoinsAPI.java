@@ -2,7 +2,7 @@ package [deinPackage];
 /*
 Copyright:
 2023
-Felix H
+Felix Hausmann
  */
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -34,7 +34,6 @@ public  class CoinsAPI {
             Coins -= coins;
             return true;
         } else {
-            Coins = 0L;
             return false;
         }
     }
