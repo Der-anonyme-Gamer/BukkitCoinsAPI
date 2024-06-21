@@ -31,4 +31,10 @@ To enable and configure the `/pay` and `/money` commands, follow these steps:
 
        // Other initialization code...
    }
-
+3. Open your pluin.yml
+4. Add following lines to the file:
+   ```YAML
+commands:
+  pay:
+  money:
+   
